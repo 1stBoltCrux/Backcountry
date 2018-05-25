@@ -17,9 +17,9 @@ repository can be cloned from github: https://github.com/1stBoltCrux/Backcountry
 <img src="imgs/screen3.png">
 
 # Screenshots of the Backcountry.com cloned
-<img src"imgs/clonescreen1.png">
-<img src"imgs/clonescreen2.png">
-<img src"imgs/clonescreen3.png">
+<img src="imgs/clonescreen1.png">
+<img src="imgs/clonescreen2.png">
+<img src="imgs/clonescreen3.png">
 
 ## Technologies Used
 
