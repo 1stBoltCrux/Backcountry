@@ -152,7 +152,12 @@ h2 {
 .sale-text1:hover, .sale-text2:hover {
   cursor: pointer;
 }
+
+.sale-text1 h2, .sale-text2 h2 {
+  max-width: 40%;
+}
 .sale-text1{
+  width: 100%;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
