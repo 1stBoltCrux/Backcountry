@@ -31,6 +31,10 @@ body {
   z-index: -1;
 }
 
+.carousel img {
+  max-width: 100%;
+}
+
 .top-nav {
   z-index: 1;
   grid-column: 1;
@@ -61,5 +65,28 @@ body {
 
 .brands img {
   max-height: 100%;
+}
+
+.sale-images {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+  max-width: 100%;
+  padding-left: 10px;
+}
+
+.sale-images img {
+  width: 80vh;
+  height: 50vh;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.sale {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  overflow: hidden;
 }
 
