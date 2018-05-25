@@ -6,6 +6,11 @@ ul {
 
 body {
   margin: 0;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: 'Rozha One', serif;
 }
 
 #main-wrapper {
@@ -54,6 +59,10 @@ body {
   height: 64px
 }
 
+.brands {
+  margin: 30px 0
+}
+
 .brands ul {
   display: flex;
   justify-content: space-around;
@@ -92,6 +101,10 @@ body {
   overflow: hidden;
 }
 
+.recommended-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
 .product-grid {
   height: 40vh;
   margin-bottom: 13vh;
@@ -121,6 +134,9 @@ body {
   height: auto;
   max-width: 25vh;
 }
+.premium-header {
+  text-align: center;
+}
 
 .premium {
   display: flex;
@@ -139,7 +155,34 @@ body {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #c2c2c2;
+  margin: 0 0 50px 0;
+  padding: 100px;
+}
 
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 50px 0;
+}
+
+.footer-image-box {
+  height: 35px;
+}
+
+.footer-image-box img {
+
+  max-height: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
