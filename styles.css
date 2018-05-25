@@ -122,5 +122,25 @@ body {
   max-width: 25vh;
 }
 
+.premium {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.premium-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.help {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #c2c2c2;
+
+}
+
 
 
