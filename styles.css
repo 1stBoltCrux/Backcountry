@@ -1,0 +1,41 @@
+#main-wrapper {
+  width: 100%;
+}
+
+#header {
+  height: 139px;
+  grid-column: 1;
+  grid-row: 2;
+  background-color: rgba(0,0,0,0.75);
+  
+}
+
+.nav {
+  /* z-index: 1; */
+  display: grid;
+  grid-template-rows: 33px 1fr;
+  grid-template-columns: repeat(auto, 20px);
+}
+
+.carousel {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: -1;
+}
+
+.top-nav {
+  z-index: 1;
+  grid-column: 1;
+  grid-row: 1;
+  height: 33px;
+  background-color: #DDC9A3;
+}
+
+
+.top-header {
+  height: 75px
+}
+
+.bottom-header {
+  height: 64px
+}
