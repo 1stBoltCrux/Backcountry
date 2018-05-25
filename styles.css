@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 h2 {
   font-family: 'Rozha One', serif;
 }
@@ -36,10 +40,13 @@ h2 {
   grid-column: 1;
   grid-row: 2;
   z-index: -1;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .carousel img {
   max-width: 100%;
+  
 }
 
 .top-nav {
@@ -50,17 +57,68 @@ h2 {
   background-color: #DDC9A3;
 }
 
-
 .top-header {
-  height: 75px
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  margin: 0 40px 0 40px;
+  border-bottom: 1px solid white;
+  color: white;
 }
 
+.top-header input{
+  border-radius: 30px;
+  max-width: 673px;
+  padding: 6px 35px 7px;
+  width: 100%;
+  height: 20px;
+  align-self: center;
+  font-size: 12;
+}
+
+.chat-phone {
+  display: flex;
+  align-items: center;
+    min-width: 300px;
+}
+
+.chat-phone p {
+  margin-left: 15px;
+
+}
+
+.name-cart {
+  display:flex;
+  align-items: center;
+}
+
+.t {
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  padding: 10px 12px 10px 12px;
+  margin: 0 3px 0 10px;
+}
+
+
+.top-header-image img{
+  height: 50px;
+}
+
+.top-header-image {
+  padding: 8px;
+}
 .bottom-header {
-  height: 64px
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 64px;
 }
 
 .brands {
-  margin: 30px 0
+  margin: 30px 0;
 }
 
 .brands ul {
