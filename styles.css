@@ -1,3 +1,11 @@
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
 #main-wrapper {
   width: 100%;
 }
@@ -39,3 +47,19 @@
 .bottom-header {
   height: 64px
 }
+
+.brands ul {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  opacity: .5;
+}
+
+.brands li {
+  height: 60px;
+}
+
+.brands img {
+  max-height: 100%;
+}
+
