@@ -12,7 +12,9 @@ clone repository from github: https://github.com/1stBoltCrux/Backcountry.git
 
 ## Backcountry.Com screenshots
 
-<img src="imgs/screen1.jpg">
+<img src="imgs/screen1.png">
+<img src="imgs/screen2.png">
+<img src="imgs/screen3.png">
 
 ## Technologies Used
 
