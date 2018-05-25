@@ -1,5 +1,7 @@
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -86,7 +88,39 @@ body {
 .sale {
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   overflow: hidden;
 }
+
+.product-grid {
+  height: 40vh;
+  margin-bottom: 13vh;
+}
+
+.product-grid ul {
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-grid li {
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  margin: 10px;
+}
+
+.card img {
+  height: auto;
+  max-width: 25vh;
+}
+
+
 
